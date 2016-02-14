@@ -9,5 +9,20 @@ def beautiful_context(app, pagename, templatename, context, doctree):
     '''
     pass
 
+
+def remove_unnecessary_newline(node):
+    '''
+    去除多余的换行符
+    '''
+    pass
+
+
+def remove_unnecssary_backspace(node):
+    '''
+    去除多余的空格
+    '''
+    pass
+
+
 def setup(app):
     app.connect('html-page-context', beautiful_context)
