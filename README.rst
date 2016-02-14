@@ -1,7 +1,4 @@
 Chinese Beautiful
 =================
 
-旨在消除 rST 生成 html 时附带的这两个问题：
-
-    - Inline Markup 导致在两个中文字符之间产生空格
-    - Paragraphs 中的换行符导致在两个中文字符之间产生空格
+尝试已 Sphinx 插件的形式去消除 rST 中因为 Inline Markup 和换行符而产生的空格
